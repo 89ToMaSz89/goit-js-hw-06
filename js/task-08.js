@@ -1,7 +1,13 @@
 const form = document.querySelector('#login-form');
 
-const handle = (event) => {
+function handleSubmit(event){
     event.preventDefault();
 }
 
-form.addEventListener('submit', handle);
+form.addEventListener("submit", handleSubmit);
+
+// const handle = (event) => {
+//     event.preventDefault();
+// }
+
+// form.addEventListener('submit', handle);
