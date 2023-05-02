@@ -13,6 +13,15 @@ const images = [
   },
 ];
 
+const gallery = document.querySelector('.gallery');
+
+images.forEach(image => {
+  const newCodeHtml = `<li><img class="pictures" src="${image.url}"></li>`;
+  console.log(image.url);
+
+  gallery.insertAdjacentHTML('afterbegin', newCodeHtml);
+});
+
 
 
 
