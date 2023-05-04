@@ -7,6 +7,7 @@ const blur = () => {
         input.classList.add("invalid");
     }
     else{
+        input.classList.remove("invalid");
         input.classList.add("valid");
     }
 }
